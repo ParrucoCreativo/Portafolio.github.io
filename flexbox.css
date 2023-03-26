@@ -1,0 +1,187 @@
+/*Sección Menu*/
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu-contenedor1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu_list{
+    display: flex;
+}
+
+/*Sección Saludo*/
+.contenedor-saludo{
+    justify-content: space-between;
+}
+.saludo{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 25px;
+}
+
+.redessociales{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 32px;
+}
+
+/*Sobre mi*/
+.sobre--mi{
+    display: flex;
+    align-content: flex-start;
+    flex-direction: column;
+}
+/*Skills*/
+.skills-programacion{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.skills-diseno{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap; 
+}
+
+/*Hobbies*/
+.contenedor--hobbies{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap; 
+}
+
+/*Estudios*/
+.contenedor-estudios{
+display: flex;
+flex-direction: column;
+
+}
+
+.contenedor--estudios{
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+gap: 40px;
+}
+
+.academic__courses__list{
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+}
+ 
+/*Esperiencia*/
+.experience__box{
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+   }
+.experience__img{
+    min-width: 200px;
+    flex: 360px;
+   }
+
+.experience__description{
+    display: flex;
+    gap: 10px;
+}
+
+/*Contacto*/
+
+.contenedor--contacto{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.formulario-contacto{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+/*footeer*/
+.contenedor-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.footer-datos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+
+
+/*responsibe */
+@media (max-width:768px) {
+    .contenedor-Total{
+        margin: 0 auto;
+        width: 87%;
+    }
+
+    .contenedor-sobre-mi{
+        width: 100%;
+    }
+    .menu_list{
+        display: none;
+    }
+    .menu_list_item-contacto{
+        display: flex;
+    }
+
+    .saludo{
+        flex-direction: column;
+    }
+    .titulo-saludo{
+        font-size: 2em;
+    }
+
+    .foto-perfil{
+        height: 150px;
+        width: 150px;
+    }
+
+    .redessociales{
+        width: 100%;
+        display: flex;
+        gap: 7px;
+    }
+    .skills-programacion{
+        gap: 75px;
+        padding: 15px;
+    }
+
+    .skills-diseno{
+        gap: 75px;
+        padding: 15px;
+    }
+    .contenedor--hobbies{
+        gap: 75px;
+        padding: 15px;
+    }
+    
+   
+  .contacto-izquierda{
+    display: none;
+  }
+
+}

@@ -1,0 +1,373 @@
+:root{
+    /* Inserta la variable de los otros colores inspeccionando el exemplo de figma */
+    /*Se esforce para trabalhar com variáveis, é uma dica profissional valiosa*/
+    background-color: #F2F5F7
+}
+
+body {
+    box-sizing: border-box;
+    font-family: 'Kanit';
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+
+.contenedor-Total{
+    margin: 0 auto;
+    width: 94%;
+}
+
+a{
+    text-decoration: none;
+    color: var(--cor-de-link);
+   }
+
+/*Sección Menu*/
+.menu-logo{
+    height: 80px;
+    width: 80px;
+    margin-top: 1%;
+    margin-left: 2%;
+    
+}
+.menu-nombre{
+    font-weight: bold;
+	font-size: 1em;
+	color: #023059
+}
+
+.menu{
+    padding: 20px 0;
+}
+
+.menu_list_item {
+	padding: 10px;
+	margin:0 0 0 2px;
+	color: #023059;
+	text-decoration: none;
+	transition: .5s;
+	display: block;
+     
+}
+
+.menu_list_item-contacto{
+    display: none;
+    padding: 10px;
+	margin:0 0 0 2px;
+	color: #023059;
+	text-decoration: none;
+	transition: .5s;
+	  
+}
+
+.menu_list_item:hover {
+    transition: .1s;
+    color: #5a14ab;
+    
+}
+
+/*Sección Saludo*/
+.foto-perfil{
+    height: 300px;
+    width: 300px;
+}
+
+
+.titulo-saludo{
+    font-weight: bold;
+	font-size: 3em;
+	color: #023059
+}
+
+.subtituto-saludo{
+    margin-top: 15px;
+    font-weight:lighter;
+	font-size: 1em;
+	color: #485866
+}
+
+.redessociales{
+    margin-top: 10px;
+    font-size: 1em;
+	color: #023059
+}
+
+.redessociales-item:hover {
+    color: #5a14ab;
+}
+
+/*Sección Sobre mi*/
+
+.contenedor-sobre-mi{
+    width: 75%;
+}
+
+.titulo-sobre-mi{
+    margin-top: 10px;
+    font-weight: bold;
+	font-size: 2em;
+    color: #023059
+}
+
+.parrafo1-sobre-mi{
+    margin-top: 15px;
+    font-weight:lighter;
+	font-size: 1em;
+	color: #485866
+}
+
+.parrafo2-sobre-mi{
+    margin-top: 15px;
+    font-weight:lighter;
+	font-size: 1em;
+	color: #485866
+}
+/*Sección de Skills*/
+.titulo-skills{
+    margin-top: 75px;
+    margin-bottom: 75px;
+    text-align: center;
+    font-weight: bold;
+	font-size: 2em;
+    color: #023059
+}
+
+.skills__name{
+    margin-top: 15px;
+    font-weight:lighter;
+	font-size: 1em;
+	color: #485866;
+    margin-bottom: 15px;
+}
+
+.skills_icn{
+    filter: invert(12%) sepia(81%) saturate(4274%) hue-rotate(184deg) brightness(97%) contrast(97%);
+}
+
+/*Sección Hobbies*/
+
+.titulo-hobbies{
+    margin-top: 75px;
+    margin-bottom: 75px;
+    text-align: center;
+    font-weight: bold;
+	font-size: 2em;
+    color: #023059
+}
+
+.hobbies__name{
+    margin-top: 15px;
+    font-weight:lighter;
+	font-size: 1em;
+	color: #485866;
+    margin-bottom: 15px;
+}
+
+.hobbies__img{
+    filter: invert(12%) sepia(81%) saturate(4274%) hue-rotate(184deg) brightness(97%) contrast(97%);
+}
+
+/* Experiencia Académica*/
+.contenedor-estudios{
+    background-color:#bdcede;
+}
+
+.estudios-logo{
+    width:250px;
+    height: 246px;
+    border-radius: 15px;
+    background-color: #ffffff;
+}
+
+.estudios-logo1{
+    width: 199px;
+    max-height: 200px;
+    padding: 10%;
+    margin: auto;
+    border-radius: 15px;
+}
+.estudios-titulo{
+    margin-top: 75px;
+    margin-bottom: 25px;
+    text-align: center;
+    font-weight: bold;
+	font-size: 2em;
+    color: #023059
+}
+.estudios-titulo1{
+    margin-top: 15px;
+    font-weight:bold;
+	font-size: 1em;
+	color: #023059; 
+}
+
+.estudios-subtitulo{
+    margin-top: 1px;
+    font-weight:lighter;
+	font-size: 1em;
+	color: #485866;
+    margin-bottom: 15px;
+}
+
+/* experiencia*/
+
+.titulo-experiencia{
+    margin-top: 75px;
+    margin-bottom: 75px;
+    text-align: center;
+    font-weight: bold;
+	font-size: 2em;
+    color: #023059
+}
+
+.experiencia-titulo{
+    margin-top: 15px;
+    font-weight:bold;
+	font-size: 1em;
+	color: #023059; 
+}
+
+.experiencia-parrafo{
+    margin-top: 1px;
+    font-weight:lighter;
+	font-size:smaller;
+	color: #485866;
+    margin-bottom: 15px;
+    width: 300px;
+}
+
+.experiencia__bottonrepositorio{
+    float: left;
+    width: 116px;
+    height: 51px;
+    border-radius: 5px;
+    margin-top: 5%;
+    margin-left: 3%;
+    padding: 5px;
+}
+
+.experiencia__bottonverdemo{
+    float: left;
+    width: 116px;
+    height: 51px;
+    border-radius: 5px;
+    margin-top: 5%;
+    margin-left: 3%;
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+    color: #F2F5F7;
+    background-color: #5a14ab;
+}
+
+/*Contacto*/
+
+.contenedor-contacto{
+    margin-top: 30px;
+}
+
+.contacto-img{
+    width: 464px;
+    height: 593px;
+}
+
+.contacto-titulo{
+    margin-bottom: 5px;
+    text-align: left;
+    font-weight: bold;
+	font-size: 2em;
+    color: #023059
+}
+
+.contacto-subtitulo{
+    font-weight:normal;
+	font-size:smaller;
+	color: #485866;
+}
+
+input, textarea {
+ width: 100%;
+  padding: 12px; 
+  border: 1px solid #5a14ab; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical; 
+  background:  none;
+  border-radius: 4px;
+  font-weight:normal;
+  font-size:1em;
+  color: #485866;
+}
+
+.contacto-boton{
+  background-color: #5a14ab;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight:normal;
+  font-size: 1em;
+  width: 200px;
+}
+
+/*footeer*/
+
+.footer-texto{
+    margin-top: 25px;
+    font-weight:small;
+    font-size:smaller;
+    text-align: center;
+    color: #485866;
+}
+
+.footer-datos{
+    margin-bottom: 25px;
+    font-weight:normal;
+    font-size:smaller;
+    text-align: center;
+    color: #485866;
+}
+
+
+
+/*Tablet*/
+
+
+
+/*title*/
+
+/*Skills*/
+
+/*Hobbies*/
+
+/*Formación Académica*/
+
+/*Experiencia Profesional*/
+
+
+
+/*Mobile*/
+@media (min-width: 425px) {
+
+/*Menu*/
+
+/*Titulo*/
+
+/*Sección sobre mi*/
+
+/*Skills*/
+
+/*Hobbies*/
+ 
+/*Formación Académica*/
+
+/*Experiencia Profesional*/
+
+ /*Contacto*/
+
+/*Footer*/
+
+}
